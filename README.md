@@ -6,9 +6,16 @@ REQUISITOS
 npm install
 node app.js
 ```
+* Ingresar en un explorador a URL http://localhost:8001
 * Para iniciar sesión utilizar las siguientes credenciales:
     * Correo:     admin@admin.cl
     * Contraseña: admin
+* El PMV Desarrollado permite actualmente:
+    * Solicitar inscripción de socio desde el login haciendo click en palabra "Solicitar inscripción".
+    * Iniciar sesión como Administrador.
+    * Revisar inscripciones (pendientes, aceptadas y rechazadas).
+    * Revisar documentación legal de inscripciones.
+    * Aceptar o rechazar solicitud según sea el caso.
 
 INFORMACIÓN
 

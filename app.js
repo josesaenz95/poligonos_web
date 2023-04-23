@@ -2,9 +2,7 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const express = require('express');
 const fileUpload = require('express-fileupload');
-const flash = require('connect-flash');
 const morgan = require('morgan');
-const passport = require('passport');
 const path = require('path');
 const session = require('express-session');
 
@@ -29,10 +27,6 @@ app.use(session({
     resave: true,
     saveUninitialized: true,
 }));
-
-app.use(passport.initialize());
-app.use(passport.session());
-app.use(flash())
 
 // Importación de rutas
 require('./src/routes/urls')(app);
