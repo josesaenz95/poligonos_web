@@ -10,6 +10,7 @@
   "author": "Grupo 10 Unab",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -17,10 +18,11 @@
     "express": "^4.18.2",
     "express-fileupload": "^1.4.0",
     "express-session": "^1.17.3",
+    "generate-password": "^1.7.0",
     "luxon": "^3.3.0",
     "morgan": "^1.10.0",
-    "passport": "^0.6.0",
-    "sequelize": "^6.31.0",
+    "mysql": "^2.18.1",
+    "passport-local": "^1.0.0",
     "sqlite3": "^5.1.6"
   }
 }

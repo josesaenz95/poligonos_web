@@ -33,6 +33,8 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash())
+
+// Importación de rutas
 require('./src/routes/urls')(app);
 
 app.listen(PORT, () => {
